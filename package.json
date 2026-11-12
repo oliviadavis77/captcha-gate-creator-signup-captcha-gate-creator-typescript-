@@ -1,0 +1,16 @@
+{
+  "name": "captcha-gate-creator-signup",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/creator_signup.ts",
+    "test": "node --experimental-strip-types test/creator_signup.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.0"
+  },
+  "dependencies": {
+    "zod": "^3.24.0"
+  }
+}
